@@ -67,7 +67,7 @@ fn main() {
     println!("Welcome to the rust powered Shape Calculator!");
     println!("Please input your name");
     let mut name_in = String::new();
-    io::stdin().read_line(&mut name_in).expect("Input Failed ");
+    io::stdin().read_line(&mut name_in).expect("InputF ailed ");
     let name = name_in.trim();
     println!("What would you like to work out today? {}", name);
     println!("1 Trapezium (area)");
