@@ -50,7 +50,7 @@ fn main() {
         let row3 = "\nGoldberg,Williams,Malta Gold";
         let row4 = "\nGulder,,Fayrouz";
         let row5 = "\nHeineken,,";
-        let row6 = "\nStar,,";
+        let row6 = "\Sntar,,";
     
         //Creating the file
         let mut file = File::create("NB_PLC.csv").expect("Failed to create file.");
